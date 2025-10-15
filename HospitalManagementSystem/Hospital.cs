@@ -6,10 +6,10 @@ namespace HospitalManagementSystem
 {
     public class Hospital
     {
-        public List<Doctor> Doctors { get; set; } // додаємо public
+        public List<Doctor> Doctors { get; set; } 
         public List<Patient> Patients { get; set; }
         public List<HospitalRoom> Rooms { get; set; }
-        public List<MedicalRecord> Records { get; set; } // додаємо public для Records
+        public List<MedicalRecord> Records { get; set; } 
 
         public Hospital()
         {
@@ -78,4 +78,5 @@ namespace HospitalManagementSystem
                    $"Кількість медичних записів: {Records.Count}\n";
         }
     }
+
 }
