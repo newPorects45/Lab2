@@ -2,14 +2,14 @@
 
 namespace HospitalManagementSystem
 {
-    public class MedicalRecord // додаємо public
+    public class MedicalRecord 
     {
-        public Patient Patient { get; set; } // додаємо public властивості
+        public Patient Patient { get; set; }
         public Doctor Doctor { get; set; }
         public DateTime Date { get; set; }
         public string Description { get; set; }
 
-        public MedicalRecord(Patient patient, Doctor doctor, DateTime date, string description) // конструктор
+        public MedicalRecord(Patient patient, Doctor doctor, DateTime date, string description) 
         {
             Patient = patient;
             Doctor = doctor;
@@ -17,4 +17,5 @@ namespace HospitalManagementSystem
             Description = description;
         }
     }
+
 }
